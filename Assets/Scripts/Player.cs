@@ -19,10 +19,10 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
-        if (_indexScene <= 2)
+        if (_indexScene <= 3)
         _jumpPlayer.Jump();
 
-        if (_indexScene > 2)
+        if (_indexScene > 3)
         _jumpPlayer.DoubleJump();
     }
     private void FixedUpdate()

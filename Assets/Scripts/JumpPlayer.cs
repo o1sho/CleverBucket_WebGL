@@ -22,7 +22,7 @@ public class JumpPlayer : MonoBehaviour
 
     public void Jump()
     {
-        if (Input.GetButtonDown("Jump") && GroundCheck._isGround)
+        if (Input.GetButton("Jump") && GroundCheck._isGround)
         {
             _rb.velocity = new Vector2(_rb.velocity.x, 0);
             if (GravityReverse._top == false) _rb.AddForce(new Vector2 (0, _jumpSpeed), ForceMode2D.Impulse);

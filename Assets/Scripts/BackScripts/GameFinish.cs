@@ -17,7 +17,10 @@ public class GameFinish : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerPrefs.SetInt("currentEndLvl", _indexScene);
+            if (PlayerPrefs.GetInt("currentEndLvl") < _indexScene)
+            {
+                PlayerPrefs.SetInt("currentEndLvl", _indexScene);
+            }
             _timerManager.SaveTime();
             UnityEngine.SceneManagement.SceneManager.LoadScene(_indexScene + 1);
         }
