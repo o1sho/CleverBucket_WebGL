@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class FlyingParts : MonoBehaviour
 {
-    [SerializeField] private int _direction;
+    [SerializeField] private int _directionX;
+    [SerializeField] private int _directionY;
     [SerializeField] private float _flyingSpeed;
     [SerializeField] private float _flyingTime;
     private Rigidbody2D _rb;
@@ -16,7 +17,7 @@ public class FlyingParts : MonoBehaviour
     }
     private void OnEnable()
     {
-        _rb.AddForce(new Vector2(_direction, 0) * _flyingSpeed, ForceMode2D.Impulse);
+        _rb.AddForce(new Vector2(_directionX, _directionY) * _flyingSpeed, ForceMode2D.Impulse);
         StartCoroutine(DestroyObj());
     }
     private void Start()

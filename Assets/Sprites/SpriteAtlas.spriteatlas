@@ -78,6 +78,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 03989f7193a7cd04a91d679c9ec320b8, type: 3}
   - {fileID: 21300000, guid: 780018a1f079e06459c836051bd14d67, type: 3}
   - {fileID: 21300000, guid: 5ac07ca1d2fc9d6469846608cff5b041, type: 3}
+  - {fileID: 21300000, guid: 288303d175f6882499a79f7edbd1dc1b, type: 3}
   - {fileID: 21300000, guid: c62149023d6f9444d88790e8a222ede5, type: 3}
   - {fileID: 21300000, guid: 7530b5125b66502408cfbf004a2eb07d, type: 3}
   - {fileID: 21300000, guid: 825d3a225e1fd224391f29b8741bd78d, type: 3}
@@ -115,6 +116,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fbf2a6351e20d384cbb020807216de9d, type: 3}
   - {fileID: 21300000, guid: 457d3a3545b267f47ad54d1716720e24, type: 3}
   - {fileID: 21300000, guid: 9bdafd456e9b5ff47a953dbda42667a5, type: 3}
+  - {fileID: 21300000, guid: 48141b75d5792da468183131253177dc, type: 3}
   - {fileID: 21300000, guid: 2b76e5b5dbb15034682ec2ef424bad51, type: 3}
   - {fileID: 21300000, guid: e69994e5847174940a8da8033878d827, type: 3}
   - {fileID: 21300000, guid: 06b55606f5ff6f64180621e25c021677, type: 3}
@@ -188,6 +190,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3d87efb82af0caa46b73b1276e38ee32, type: 3}
   - {fileID: 21300000, guid: b15c38f8eb73017478c50f63b9b213cb, type: 3}
   - {fileID: 21300000, guid: 6ac38709609d1a84ab3e97c1e50bf444, type: 3}
+  - {fileID: 21300000, guid: 0c678a0974bc7a3458f38c8780b116bf, type: 3}
   - {fileID: 21300000, guid: a0076319a3097a546b1afcd7aed8afb8, type: 3}
   - {fileID: 21300000, guid: ca3ed0293e65e79459ea564a60f4943d, type: 3}
   - {fileID: 21300000, guid: 552ac6298c71cb44697ac53d4346f012, type: 3}
@@ -283,6 +286,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9b388e7f8ce1b434181de43a304227cd, type: 3}
   - {fileID: 21300000, guid: bff6e9af3143a9947a2c0bb900bec71c, type: 3}
   - {fileID: 21300000, guid: c35840bf175050d4994275afac4f0343, type: 3}
+  - {fileID: 21300000, guid: edc833cff09121e4ba64b3eacc10eeb2, type: 3}
   - {fileID: 21300000, guid: 2e9b41dfd6ea41d42bb747844cdc5d1f, type: 3}
   - {fileID: 21300000, guid: b6060fdfb431e1842980413696488f6b, type: 3}
   - {fileID: 21300000, guid: 0dfe9eef298615b45b039e4d55b76fcd, type: 3}
@@ -315,6 +319,7 @@ SpriteAtlas:
   - SettingsMenu26
   - MainMenu10
   - LvlMenu41
+  - Sprite-0001
   - Jump1
   - MainMenu29
   - Run6
@@ -352,6 +357,7 @@ SpriteAtlas:
   - Sprite-0002
   - Sprite-0003
   - Run1
+  - Sprite-0004
   - Sprite-0004
   - no
   - SettingsMenu14
@@ -425,6 +431,7 @@ SpriteAtlas:
   - Sprite-0004
   - Idle7
   - gate2
+  - Sprite-0002
   - BG 2
   - Button
   - SettingsMenu33
@@ -520,6 +527,7 @@ SpriteAtlas:
   - MainMenu39
   - MainMenu22
   - LvlMenu1
+  - Sprite-0003
   - MainMenu1
   - SettingsMenu29
   - SettingsMenu6
