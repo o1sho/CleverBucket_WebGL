@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENU
+  m_text: "\u041C\u0415\u041D\u042E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ebca74cfb586d47b84c487297b4dad, type: 2}
   m_sharedMaterial: {fileID: 497935616081345710, guid: c8ebca74cfb586d47b84c487297b4dad, type: 2}
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RESTART
+  m_text: "\u0417\u0410\u041D\u041E\u0412\u041E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ebca74cfb586d47b84c487297b4dad, type: 2}
   m_sharedMaterial: {fileID: 497935616081345710, guid: c8ebca74cfb586d47b84c487297b4dad, type: 2}

@@ -32,7 +32,7 @@ public class JumpPlayer : MonoBehaviour
 
     public void DoubleJump()
     {
-        if (Input.GetButtonDown("Jump") && GroundCheck._isGround)
+        if (Input.GetButton("Jump") && GroundCheck._isGround)
         {
 
             _rb.velocity = new Vector2(_rb.velocity.x, 0);

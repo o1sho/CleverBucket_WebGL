@@ -22,7 +22,10 @@ public class GameFinish : MonoBehaviour
                 PlayerPrefs.SetInt("currentEndLvl", _indexScene);
             }
             _timerManager.SaveTime();
-            UnityEngine.SceneManagement.SceneManager.LoadScene(_indexScene + 1);
+            if (_indexScene == 5)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            } else UnityEngine.SceneManagement.SceneManager.LoadScene(_indexScene + 1);
         }
     }
 
