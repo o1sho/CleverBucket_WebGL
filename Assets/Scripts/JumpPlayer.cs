@@ -16,7 +16,7 @@ public class JumpPlayer : MonoBehaviour
 
     private void Update()
     {
-        _anim.SetFloat("velY", _rb.velocity.y);
+        _anim.SetFloat("velY", _rb.linearVelocity.y);
         _anim.SetBool("isGround", GroundCheck._isGround);
     }
 
@@ -24,7 +24,7 @@ public class JumpPlayer : MonoBehaviour
     {
         if (Input.GetButton("Jump") && GroundCheck._isGround)
         {
-            _rb.velocity = new Vector2(_rb.velocity.x, 0);
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
             if (GravityReverse._top == false) _rb.AddForce(new Vector2 (0, _jumpSpeed), ForceMode2D.Impulse);
             if (GravityReverse._top == true) _rb.AddForce(new Vector2(0, _jumpSpeed * -1), ForceMode2D.Impulse);
         }
@@ -35,13 +35,13 @@ public class JumpPlayer : MonoBehaviour
         if (Input.GetButton("Jump") && GroundCheck._isGround)
         {
 
-            _rb.velocity = new Vector2(_rb.velocity.x, 0);
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
             if (GravityReverse._top == false) _rb.AddForce(new Vector2(0, _jumpSpeed), ForceMode2D.Impulse);
             if (GravityReverse._top == true) _rb.AddForce(new Vector2(0, _jumpSpeed * -1), ForceMode2D.Impulse);
             doubleJumpComplete = false;
         } else if (Input.GetButtonDown("Jump") && !GroundCheck._isGround && !doubleJumpComplete)
         {
-            _rb.velocity = new Vector2(_rb.velocity.x, 0);
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
             if (GravityReverse._top == false) _rb.AddForce(new Vector2(0, _jumpSpeed), ForceMode2D.Impulse);
             if (GravityReverse._top == true) _rb.AddForce(new Vector2(0, _jumpSpeed * -1), ForceMode2D.Impulse);
             doubleJumpComplete = true;

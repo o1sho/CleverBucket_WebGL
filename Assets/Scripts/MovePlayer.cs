@@ -29,7 +29,7 @@ public class MovePlayer : MonoBehaviour
     }
     public void Move()
     {
-        _rb.velocity = new Vector2(_direction * speed, _rb.velocity.y);
+        _rb.linearVelocity = new Vector2(_direction * speed, _rb.linearVelocity.y);
     }
 
 }
